@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-graphql-mongodb",
+  "version": "1.0.0",
+  "description": "NodeJs Graphql Apollo-server MongoDB demo project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashwin Dinesh",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.1.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
